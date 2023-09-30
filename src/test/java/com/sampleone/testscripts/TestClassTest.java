@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 public class TestClassTest {
 
-	@Test
+	@Test(groups = "smoke")
 	public void testClass1()
 	{
 		System.out.println("hi");
