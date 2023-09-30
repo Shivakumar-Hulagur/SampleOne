@@ -2,7 +2,7 @@ package com.sampleone.testscripts;
 
 import org.testng.annotations.Test;
 
-public class TestClass {
+public class TestClassTest {
 
 	@Test
 	public void testClass1()

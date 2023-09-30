@@ -2,7 +2,7 @@ package createtourpackages;
 
 import org.testng.annotations.Test;
 
-public class CreateTourPackTest1 {
+public class CreateTourPackTest {
 
 	@Test
 	public void creatTourPack()
