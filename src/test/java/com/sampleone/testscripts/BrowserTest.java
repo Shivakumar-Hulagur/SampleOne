@@ -7,6 +7,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
+import io.opentelemetry.exporter.logging.SystemOutLogRecordExporter;
+
 public class BrowserTest {
 
 	@Test
@@ -17,5 +19,6 @@ public class BrowserTest {
 		driver.get("http://localhost:8080/login");
 		driver.findElement(By.id("j_username")).sendKeys("admin");
 		System.out.println(" From browser test1");
+		System.out.println(" hihsabcidsbc");
 	}
 }
