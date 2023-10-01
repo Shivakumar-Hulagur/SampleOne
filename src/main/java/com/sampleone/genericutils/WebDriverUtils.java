@@ -7,6 +7,6 @@ public class WebDriverUtils {
 	@Test
 	public void maximizeBrowser()
 	{
-		
+		System.out.println(" Maximize browser");
 	}
 }
