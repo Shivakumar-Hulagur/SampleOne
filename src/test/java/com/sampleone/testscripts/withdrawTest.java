@@ -2,7 +2,8 @@ package com.sampleone.testscripts;
 
 import org.testng.annotations.Test;
 
-public class withdraw {
+public class withdrawTest {
+	
 @Test(groups = "regression")
 public void test()
 {
