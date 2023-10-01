@@ -5,10 +5,15 @@
 		<run>
 			<include name="smoke"></include>
 		</run>
-	</groups><test thread-count="1" parallel="tests" name="Test">
+	</groups>
+  <test thread-count="1" parallel="tests" name="Test">
     <classes>
-      <class name="com.sampleone.testscripts.withdraw"/>
+      <class name="com.sampleone.genericutils.WebDriverUtils"/>
+      <class name="com.sampleone.testscripts.withdrawTest"/>
+      <class name="com.sampleone.testscripts.FundTransferTest"/>
       <class name="com.sampleone.testscripts.FtTest"/>
+      <class name="com.sampleone.testscripts.ApplyLoanTest"/>
+      <class name="createtourpackages.CreateTourPackTest"/>
       <class name="com.sampleone.testscripts.TestClassTest"/>
     </classes>
   </test> <!-- Test -->
