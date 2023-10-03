@@ -6,6 +6,6 @@ public class Ft {
 @Test
 public void test1()
 {
-	System.out.println("successful");
+	System.out.println("successful complited");
 }
 }
